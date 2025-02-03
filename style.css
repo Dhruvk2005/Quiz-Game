@@ -67,3 +67,23 @@ input[type =radio]{
     align-items: center;
     margin-left:100px ;
 }
+@media (max-width: 1310px) {
+    body {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        padding: 20px 0;
+        margin-left: 10px;
+    }
+
+    .container {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+    }
+
+    #btn {
+        width: 100%;
+        margin-left: 5px;
+    }
+}
